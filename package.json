@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@types/node": "20.6.1",
@@ -29,6 +30,7 @@
     "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-config-prettier": "^9.0.0",
     "install": "^0.13.0",
-    "npm": "^10.1.0"
+    "npm": "^10.1.0",
+    "husky": "^8.0.0"
   }
 }
